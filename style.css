@@ -1,0 +1,219 @@
+* {
+    box-sizing: border-box;
+    font-size: 14px;
+    font-family: 'Raleway', sans-serif;
+}
+body {
+    background:hsl(217, 28%, 15%);
+    color:hsl(0, 0%, 100%)
+}
+.nav-item a {
+    font-family: 'Raleway', sans-serif;
+    color: white;
+}
+.navbar-brand img {
+    height: auto;
+    max-width: 100%;
+}
+.navbar-nav li {
+    margin-left: 30px;
+}
+section img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    max-width: 100%;
+}
+.container .para1, .container .para3 {
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-size: 2.2em;
+    font-weight: 700;
+
+}
+.container .para2 {
+    margin-top:50px;
+}
+.container .para2 {
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.5em;
+}
+.button1 {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+
+}
+button {
+    background-color: hsl(176, 68%, 64%);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: white;
+    font-weight: 400;
+    font-family: 'Raleway', sans-serif;
+    border: none;
+    border-radius: 30px;
+    width: 40%;
+}
+.bg-fixed{
+    background-image:url(./images/bg-curvy-desktop.svg);
+    min-height: 400px;
+    background-position: center 50px;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+.main-content {
+    margin-top: 80px;
+}
+/* @media (min-width:0px) and (max-width: 320px) {
+    .main-content {
+        background-image: url(./images/bg-curvy-mobile.svg) -200px -600px no-repeat;
+        background-size: 100%;
+    }
+} */
+.grid1 {
+    background:#181f2b;
+    z-index: 1;
+}
+.gridimage {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.test {
+    width: 80%;
+}
+.stay-productive {
+    width: 95%;
+}
+.productive1, .productive2 {
+    font-weight: 700;
+}
+.fylo-works {
+    display: inline;
+    position: relative;
+    padding-bottom: 2px;
+    border-bottom: 2px solid white;
+}
+/* .fylo-works::after{
+    position:absolute;
+    content: " ";
+    height: 4px;
+    color: white;
+    width: 100%;
+    top: 30px;
+    left: 0;
+    border: 2px solid white;
+} */
+.card1 {
+    width: 95%;
+    position: relative;
+    margin-top: 40px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    padding: 20px 40px;
+    border-radius: 10px;
+    background: hsl(219, 30%, 18%);
+   
+}
+.stay-productive, .productive1 {
+    margin-top: 80px;
+}
+.card01 {
+    position: relative;
+    z-index: 0;
+    margin-bottom: 30px;
+}
+.card1-photo {
+    position: absolute;
+    left: 0;
+    top: 10px;
+    z-index: -1;
+}
+.slide2 {
+    margin-bottom: 40px;
+}
+.profile {
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+}
+.testimonial-name {
+    font-weight: 700;
+    margin-top: 15px;
+}
+.testimonial-title {
+    font-size: .7em;
+}
+.total-card {
+    height: 200px;
+
+}
+.footer-form {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  
+}
+.footer-form h3{
+    font-weight: 700;
+    margin-top: 40px;
+}
+input[type=text] {
+    width: 100%;
+    padding:12px 20px;
+    border: 2px solid yellowgreen;
+    border-radius: 30px;
+    margin-bottom: 30px;
+}
+.get-start {
+    width:100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding:12px 20px;
+    border: 2px solid yellowgreen;
+    border-radius: 30px;
+    margin-bottom: 30px;
+    display: block;
+    background: hsl(176, 68%, 64%);
+}
+.footer1 {
+    background: hsl(217, 28%, 15%);
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -90px;
+    box-shadow: 5px 10px 18px #0c1720;
+}
+
+footer {
+    background: hsl(216, 53%, 9%);
+}
+/* .social {
+
+    border: 2px solid white;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+} */
+.social {
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+.network {
+    font-size: 2.0em;
+    padding: 10px;
+    border: 2px solid white;
+    border-radius: 50%;
+    margin-left:10px;
+}
+.para2 {
+    width:80%;
+    margin-left: auto;
+    margin-right: auto;
+}
